@@ -1,4 +1,12 @@
 <?php
+/*****************************************************
+ * RosePHP_amfphpservice映射文件
+* ---------------------------------------------------
+*	@author luoxun
+*
+*
+* ---------------------------------------------------
+*/
 define('EXEC', 1);
 //define('PATH_BASE',  dirname(__FILE__));
 define('DS',DIRECTORY_SEPARATOR);
@@ -12,6 +20,7 @@ define('Rose_Core_ROOT',dirname(__FILE__).'/RosePHP/Core');
 
 
 /**
+ * 
  * 导入配置文件
  */
 require  PATH_ROOT.'/Config/Config.php';
