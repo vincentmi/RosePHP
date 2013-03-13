@@ -12,8 +12,10 @@ define('EXEC', 1);
 define('DS',DIRECTORY_SEPARATOR);
 define('PATH_ROOT',dirname(__FILE__));
 
+define('ROSEPHP_ROOT', '../RosePHP/');
+//echo ROSEPHP_ROOT;
 
-require  PATH_ROOT.'/RosePHP/Core/init.php';
+require  ROSEPHP_ROOT.'Core/init.php';
 
 
 

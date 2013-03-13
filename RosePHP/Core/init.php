@@ -2,6 +2,7 @@
 
 define('Rose_Core_ROOT',dirname(__FILE__));
 
+//echo Rose_Core_ROOT;exit;
 /**
  * 导入配置文件
  */
@@ -41,7 +42,7 @@ require  Rose_Core_ROOT.'/Model.php';
  */
 if(boolXMLRPC)
 {
-    require_once PATH_ROOT.'/RosePHP/Lib/ripcord/ripcord.php';
+   // require_once PATH_ROOT.'/RosePHP/Lib/ripcord/ripcord.php';
 }
 
 

@@ -17,8 +17,8 @@ class IndexController  extends RoseController {
 
     function index(){    	
 			
-//    	echo "<div><font color='red'>RosePHP</font> is running</div>";
-    	
+    	echo "<div><font color='red'>RosePHP</font> is running</div>";
+    	exit;
     	$user = new UserModel();
     	//返回数据集，并且有该表的name和一些其他基本信息
     	$reall  = $user->getall();

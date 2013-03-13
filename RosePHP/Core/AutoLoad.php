@@ -2,12 +2,14 @@
 /* 
  * RosePHP自动加载类
  * 
- * @author luoxun007@gmail.com
+ * @author luoxun007@gmail.com 
  */
 
 define('Modeldir',PATH_ROOT.'/App/Model/');
 define('Controllerdir',PATH_ROOT.'/App/Controllers/');
-define('Interfacedir',PATH_ROOT.'/RosePHP/IRose/');
+
+
+define('Interfacedir',ROSEPHP_ROOT.'/IRose/');
 
  
 function Rose_autoload($class_name){

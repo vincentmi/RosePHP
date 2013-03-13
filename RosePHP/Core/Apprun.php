@@ -15,7 +15,7 @@ class Apprun {
         $controlFile = PATH_ROOT . '/App/Controllers/' . $control.'Controller' . '.php';
         
         //var_dump($_GET['c']);exit;
-        
+       // echo $controlFile;
         include($controlFile); 
         $class = ucwords($control); //将控制器名称中的每个单词首字母大写,来当作控制器的类名 
 
@@ -70,7 +70,7 @@ class Apprun {
         }
 
         $_POST['value'] = $arr;
-        $_GET['c']  = $control = !empty ($control)? $control:'index';
+        $_GET['c']  = $control = !empty ($control)? $control:'Index';
         $_GET['a']  = $action = !empty ($action)? $action:'index';
 
         
